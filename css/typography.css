@@ -1,15 +1,88 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 450;
   font-style: normal;
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.42;
+h2 {
+    text-align: left;
+    font-family: Dosis, sans-serif; 
+    font-weight: 500;
+    color:rgba(67, 44, 114, 1);
+    font-size: 32px; 
+    font-variant: small-caps;
+    padding-top:40px;
+    }
+
+.h2_verplaats {
+    padding-left: 20px;
+}
+
+#wit {
+    
+    font-family: Dosis, sans-serif; 
+    font-weight: 500;
+    color:white;
+    font-size: 32px; 
+    font-variant: small-caps;
+    }
+
+h3 {font-family: Dosis, sans-serif;
+color:rgba(78, 52, 89, 1);
+font-weight: 300;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+}
+
+p, ul {font-family: Dosis, sans-serif;
+color:rgba(78, 52, 89, 1);
+font-size: 15px;
+text-align:justify;
+list-style: none;
+margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.bijschrift {font-family: Dosis, sans-serif;
+color:rgba(6, 5, 7, 1);
+font-size: 10px;}
+
+.citaat_geel {font-family: Ubuntu Mono, sans-serif;
+    color:rgba(253, 210, 0, 1);
+    font-size: 25px;
+    text-align: center;
+}
+.citaat_wit {font-family: Ubuntu Mono, sans-serif;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+.footer a {text-decoration: none;
+    color: white;}
+
+.fa {
+    font-size: 1em;
+}
+
+form {
+    font-family: Dosis, sans-serif;
+    color:rgba(6, 5, 7, 1);
+    font-size: 16px;
+}
+
+.list {
+    text-align: justify;
+    list-style: square;
+    color:rgba(78, 52, 89, 1);
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
 }
