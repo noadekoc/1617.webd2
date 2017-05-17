@@ -123,6 +123,7 @@ html, body {
   padding: 2px;
   padding-right: 20px;
   padding-left: 20px;
+  text-align: center; 
 
   text-decoration: none;
   color: white;
@@ -199,7 +200,7 @@ text-align: center;}
 #knop_contact {border-color: white;}
 
 button {color: white;
-background-color: rgba(125, 125, 125, 0.0);
+background-color: none;
 border: 2px solid white; 
 margin: 10px;
 font-family: Dosis;
@@ -317,8 +318,15 @@ input:focus::-webkit-input-placeholder {
   color:  rgba(78, 52, 89, 1);
 }
 
-#balk_form {
-  width: 500px;
+
+
+label {
+  padding-left: 15px;
+  width: 20%;
+  text-align: right;
+  font-family: Dosis, sans-serif;
+  color:rgba(78, 52, 89, 1);
+  font-size: 15px;
 }
 
 input:focus, textarea:focus a:focus{outline: none;}
@@ -347,7 +355,7 @@ figure.portfolio img {
 
 }
 figure.portfolio .knop {
-  width: 150px;
+  width: 170px;
   padding-left: 10px;
   padding-right: 10px;
   position: absolute;
@@ -377,4 +385,26 @@ ul, span {
 }
 iframe {
   padding-top: 50px;
+}
+
+
+.formulier {
+    background-color: rgba(252, 252, 252, 1);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 500px;}
+
+
+#balk_form {
+    width: 90%;
+    padding: 5px;
+    background: transparent;
+    transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+}
+
+#balk_form:hover {
+  border-bottom:2px solid  rgba(78, 52, 89, 1);
 }
