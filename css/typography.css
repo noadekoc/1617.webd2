@@ -16,8 +16,12 @@ h2 {
     padding-top:40px;
     }
 
-.h2_verplaats {
-    padding-left: 15px;
+.verplaats {
+    padding-left: 17px;
+}
+
+#minder_padding {
+    padding-top: 15px;
 }
 
 #wit {
@@ -84,6 +88,9 @@ form {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;}
+
+.link_paars:visited {
+    color: rgba(78, 52, 89, 1);
 }
 

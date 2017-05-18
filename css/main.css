@@ -223,7 +223,6 @@ font-family: Dosis;
 
 .geel_vak {
   position: relative;
-  text-align: center;
   background: rgba(253, 210, 0, 1);
   width: 100%;  
   margin: 0 auto;
@@ -388,13 +387,6 @@ iframe {
 }
 
 
-.formulier {
-    background-color: rgba(252, 252, 252, 1);
-    padding-left: 30px;
-    padding-bottom: 30px;
-    width: 500px;}
-
-
 #balk_form {
     width: 90%;
     padding: 5px;
@@ -407,4 +399,14 @@ iframe {
 
 #balk_form:hover {
   border-bottom:2px solid  rgba(78, 52, 89, 1);
+}
+
+.logo_bevestiging {
+  text-align: center;
+}
+
+.logo_geel {
+  margin: 50px;
+}
+.centreer {text-align: center; 
 }
