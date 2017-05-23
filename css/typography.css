@@ -57,16 +57,17 @@ margin: 0 auto;
 color:rgba(6, 5, 7, 1);
 font-size: 10px;}
 
-.citaat_geel {font-family: Ubuntu Mono, sans-serif;
+.citaat_geel {font-family: 'Reenie Beanie', cursive, sans-serif;
     color:rgba(253, 210, 0, 1);
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
-.citaat_wit {font-family: Ubuntu Mono, sans-serif;
+.citaat_wit {font-family: 'Reenie Beanie', cursive, sans-serif;
     color:white;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
+
 .footer a {text-decoration: none;
     color: white;}
 
