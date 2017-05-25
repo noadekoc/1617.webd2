@@ -231,6 +231,7 @@ font-family: Dosis;
   background: rgba(253, 210, 0, 1);
   width: 100%;  
   margin: 0 auto;
+  margin-top: 20px;
   }
 
 article {
@@ -429,5 +430,5 @@ iframe {
 }
 
 #rand {
-  border-right: 1px dotted rgba(78, 52, 89, 1);
+  border-right: 1px dotted white;
 }
